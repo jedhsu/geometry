@@ -4,12 +4,14 @@
 
 `Geometry` explores the concept of space how it as evolved and generalized from its physical perspective in Ancient Greece to the abstract category-theoretic perspective of the modern day, and find practical applications.
 
-It models space from the five paradigms.
-* Eucildean
-* Hilbert
-* Topological
-* Categorical
-* Triadic
+It models space from the seven paradigms of generalization.
+* Level 1: Eucildean
+* Level 2: Hilbert
+* Level 3: Topological
+* Level 4A: Categorical
+* Level 4B: Homotypical
+* Level 5A: N-Categorical
+* Level 5B: N-Homotypical
 
 We also want a practical framework with following goals: TODO.
 
