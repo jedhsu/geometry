@@ -7,6 +7,3 @@ where
 {
     fn is_manifold(&self) -> bool;
 }
-
-pub trait Line<_D>: Manifold {}
-pub trait Sphere<_D>: Manifold {}

@@ -1,5 +1,5 @@
-use space::topological::core::point::Point;
-use space::topological::core::set::Set;
+use geometry::topological::s::Set;
+use geometry::topological::x::Point;
 
 pub trait Closeness<X>
 where
