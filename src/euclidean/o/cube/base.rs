@@ -42,7 +42,7 @@ mod cube2 {
     }
 
     impl<D> Cube2<D> {
-        fn new(a: (D, _D), b: (D, D)) -> Cube2<D> {
+        fn new(a: (D, D), b: (D, D)) -> Cube2<D> {
             Cube2 {
                 a: Interval::new(a),
                 b: Interval::new(b),
@@ -63,7 +63,7 @@ mod cube3 {
     }
 
     impl<D> Cube4<D> {
-        fn new(a: (D, _D), b: (D, D), c: (D, D)) -> Cube3<D> {
+        fn new(a: (D, D), b: (D, D), c: (D, D)) -> Cube3<D> {
             Cube2 {
                 a: Interval::new(a),
                 b: Interval::new(b),

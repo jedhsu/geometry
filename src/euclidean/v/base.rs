@@ -1,4 +1,4 @@
-//! Vectors in Euclidean space.
+//! Euclidean vector model.
 
 pub trait Vector<N, D> {
     fn add(&self, other: Vector<N, D>) -> Vector<N, D>;

@@ -2,17 +2,17 @@
 
 use geometry::hilbert::o::Hilbert;
 
-pub trait Euclidean<_D>: Hilbert
+pub trait Euclidean<D>: Hilbert
 where
-    _D: Dimension,
+    D: Dimension,
 {
 }
 
 pub type Loc<T> = T;
 
-pub trait Coordinate<_D>
+pub trait Coordinate<D>
 where
-    _D: Dimension,
+    D: Dimension,
 {
     fn new(locs: Vec<Loc<T>>);
 }

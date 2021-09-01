@@ -1,4 +1,4 @@
-//! A point in a Euclidean space.
+//! A point in Euclidean space.
 
 use geometry::hilbert;
 
