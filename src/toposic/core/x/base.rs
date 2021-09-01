@@ -8,6 +8,11 @@ use space::toposic::x::Thing;
 
 use std::ops::Shr;
 
+enum Element {
+    Thing,
+    Arrow,
+}
+
 pub trait Thing {}
 
 mod pointing {
@@ -36,5 +41,23 @@ mod combine {
         Y: Thing,
     {
         fn combine(x: X, y: Y);
+    }
+}
+
+/// Arrows are morphisms.
+mod arrow {
+    pub struct Arrow<X>
+    where
+        X: Thing,
+    {
+        left: X,
+        right: X,
+    }
+
+    pub trait Morph<X>
+    where
+        X: Thing,
+    {
+        fn morph(&self, other: X) -> X;
     }
 }
