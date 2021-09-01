@@ -3,7 +3,7 @@
 // This is the most general, and can allow for self-referencing of it's own trait structure. TODO -
 // clarify
 
-use space::toposic::s::Collection;
+use geometry::l4a-categorical::s::Collection;
 use space::toposic::x::Thing;
 
 use std::ops::Shr;

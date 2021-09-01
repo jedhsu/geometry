@@ -13,6 +13,8 @@ It models space from the seven paradigms of generalization.
 * Level 5A: N-Categorical
 * Level 5B: N-Homotypical
 
+The degrees of generalization and abstraction follow the progress quite closely.
+
 We also want a practical framework with following goals: TODO.
 
 Rust's expressive type system enables this work through use of generics.
@@ -21,25 +23,35 @@ A goal is to find practical applicatio of the intuitively profound principles cu
 
 Blurb about aspiring on how to look at data & structure from a more geometric perspective.
 
-### Euclidean (
+### [L1] Euclidean
+
+Euclideal space.
 
 #### Example: Rasterization
 
-### Hilbert
+### [L2] Hilbert
+
+Hilbert space.
 
 #### Example: Oscillation
 
-### Topological
+### [L3] Topological
+
+Topological space from a point-set perspective.
 
 #### Example: Lorentzian Manifold
 
-### Categorical
+### [L4] Triadic
+
+#### [L4A] Categorical
+
+#### [L4B] Homotypical
 
 #### Example: Neural Network
 
-### Triadic
+#### [L5A] N-Categorical
 
-### Fractological
+#### [L5B] N-Homotypical
 
 ### Future Goals
 

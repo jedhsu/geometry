@@ -2,9 +2,10 @@
 
 use geometry::hilbert::o::Dimension;
 
-pub trait X<_D>
+pub trait X<N, D>
 where
-    _D: Dimension,
+    N: Dimension,
+    D: Datatype,
 {
     fn new(coordinates: Coordinates) {}
 }

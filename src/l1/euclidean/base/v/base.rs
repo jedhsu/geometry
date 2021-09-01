@@ -1,6 +1,10 @@
-//! Euclidean vector model.
+//! Euclidean vector.
 
-pub trait Vector<N, D> {
+pub trait Vector<N, D>
+where
+    N: Dimension,
+    D: Datatype,
+{
     fn add(&self, other: Vector<N, D>) -> Vector<N, D>;
     fn subtract(&self, other: Vector<N, D>) -> Vector<N, D>;
 
@@ -18,6 +22,14 @@ pub mod v1 {
         fn new(a: Axel<Size>) -> V1 {
             V1 { a }
         }
+    }
+
+    #[cfg(test)]
+    mod tests {
+        use super::*;
+
+        #[test]
+        fn test_new() {}
     }
 }
 

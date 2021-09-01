@@ -4,7 +4,7 @@
 
 use geometry::toposic::x::{Arrow, Thing};
 
-pub trait Toposic<X, T>
+pub trait Categorical<X, T>
 where
     X: Thing,
     T: Arrow,

@@ -1,18 +1,19 @@
-//! Euclidean space.
+//! Hilbert space.
 
-use geometry::hilbert::o::Hilbert;
+use geometry::topological::o::Topological;
 
-pub trait Euclidean<D>: Hilbert
+pub trait Hilbert<N, D>: Topological
 where
-    D: Dimension,
+    N: Dimension,
+    D: Datatype,
 {
 }
 
 pub type Loc<T> = T;
 
-pub trait Coordinate<D>
+pub trait Coordinate<_D>
 where
-    D: Dimension,
+    _D: Dimension,
 {
     fn new(locs: Vec<Loc<T>>);
 }
@@ -37,3 +38,4 @@ mod interval {
 mod axis {
     pub struct Axis = usize;
 }
+
