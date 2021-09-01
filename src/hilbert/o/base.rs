@@ -1,8 +1,8 @@
-//! Euclidean space.
+//! Hilbert space.
 
-use geometry::hilbert::o::Hilbert;
+use geometry::topological::o::Topological;
 
-pub trait Euclidean<_D>: Hilbert
+pub trait Hilbert<_D>: Topological
 where
     _D: Dimension,
 {
@@ -37,3 +37,4 @@ mod interval {
 mod axis {
     pub struct Axis = usize;
 }
+

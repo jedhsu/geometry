@@ -1,9 +1,9 @@
 use crate::topological::_o::dimension::Dimension;
 use crate::topological::_o::space::Topological;
 
-pub trait Manifold<_D>: Topological
+pub trait Manifold<N>: Topological
 where
-    _D: Dimension,
+    N: Dimensions,
 {
     fn is_manifold(&self) -> bool;
 }
