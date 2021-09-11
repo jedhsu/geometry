@@ -56,4 +56,6 @@ Use Topos
 
 ### Acknowledgements
 
-Nlab.
+Geometric Deep Learning - Bronstien et al
+
+Nlab
