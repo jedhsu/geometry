@@ -6,7 +6,7 @@
 
 The `Space` is implemented at each level such that each increasing level's `Space` supertraits the previous.
 
-* Level 1: [Eucildean](
+* Level 1: Eucildean
 * Level 2: Hilbert
 * Level 3: Topological
 * Level 4A: Categorical
@@ -14,15 +14,9 @@ The `Space` is implemented at each level such that each increasing level's `Spac
 * Level 5A: N-Categorical
 * Level 5B: N-Homotypical
 
-The degrees of generalization and abstraction follow the progress quite closely.
-
-Rust's expressive type system enables this work through use of generics.
-
-A goal is to find practical applicatio of the intuitively profound principles currently emerging in computational trinitarism, The goal for this is to provide a framework for space.
-
 ### [L1] Euclidean
 
-Euclideal space.
+Euclidean space.
 
 #### Example: Rasterization
 
@@ -50,12 +44,8 @@ Topological space from a point-set perspective.
 
 #### [L5B] N-Homotypical
 
-### Future Goals
 
-Use Topos
+### References
 
-### Acknowledgements
-
-Geometric Deep Learning - Bronstien et al
-
-Nlab
+1. NLab
+2. Geometric Deep Learning - Bronstien et al
